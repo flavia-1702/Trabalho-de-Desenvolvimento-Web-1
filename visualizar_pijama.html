@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar pijama</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        .visualizar{
+            position: relative;
+            display: flex;
+            padding: 5%;
+            width: 50%;
+            left: 19%;
+            font-family: Apple Chancery, cursive;
+        }
+        button{
+            border-radius: 80%;
+            border-color: #c9c1e5;
+            height: 9%;
+            width: 9%;
+        }
+        .comprar{
+            border-radius: 0%;
+            background-color: #7c2ae8;
+            border-color: #7c2ae8;
+            color: #fff;
+            height: 9%;
+            width: 22%;
+            font-family: Apple Chancery, cursive;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <div class="retangulo">
+                <img class="logo" src="./assets/logo_oficial.png" alt="Logo da loja Preguicinha Pijamas">
+                <button class="botao1">
+                    <img id="botao_login" class="login" src="./assets/logo_login.png" alt="Logo de login">
+                </button>
+                <script src="script.js"></script>
+                <button class="botao2">
+                    <img class="carrinho" src="./assets/logo_carrinho_de_compra.png" alt="Logo de carrinho de compra">
+                </button>
+                <div class="barra_de_pesquisa">
+                    <input class="barra" type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <button class="botao3">
+                        <img class="lupa" src="./assets/logo_lupa.png" alt="Logo de uma lupa">
+                    </button>
+                </div> 
+            </div>
+            <div class="visualizar">
+                <ul>
+                    <img src="./assets/pijama_infantil_panda_bailarina_manga_longa.png" alt="Pijama infantil feminino panda" width="200px" height="300px">
+                </ul>
+                <ul>
+                    <h2>Pijama infantil feminino panda</h2>
+                    <h4 style="margin-left: 8%;">Tamanho:</h4>
+                    <button style="margin-left: 40%;"> P </button>
+                    <button> M </button>
+                    <button> G </button>
+                    <h4 style="margin-left: 8%;">Frete grátis!</h4>
+                    <h2 style="margin-left: 40%;">R$65,50</h2>
+                    <button id="botao_comprar" style="margin-left: 44%;" class="comprar">
+                        Comprar
+                    </button>
+                    <script src="script.js"></script>
+                </ul>
+            </div>
+            <footer>
+                <div class="rodape">
+                    <ul>
+                        <h3>Nos contate</h3>
+                        <p>+32 123456789</p>
+                        <p>preguicinhapijamas@gmail.com</p>
+                        <p>Brasil</p>
+                    </ul>
+                    <ul>
+                        <h3>Redes sociais</h3>
+                        <button class="botao">
+                            <img class="instagram" src="./assets/logo_instagram.png" alt="Logo do Instagram">
+                        </button>
+                        <button class="botao">
+                            <img class="facebook" src="./assets/logo_facebook.png" alt="Logo do Facebook">
+                        </button>
+                        <button class="botao">
+                            <img class="tiktok" src="./assets/logo_tiktok.png" alt="Logo do TikTok">
+                        </button>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
